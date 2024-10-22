@@ -93,7 +93,7 @@
     <nav>
         <a href="#">Home</a>
         <a href="#toerprogramma">Toerprogramma</a>
-        <a href="#spelregels">Spelregels</a>
+        <a href="#spelregels">Spelregels</a> <a href="spelregels.html">Spelregels</a>
         <a href="#routeboek">Routeboek</a>
         <a href="#nieuws">Het Laatste Nieuws</a>
     </nav>
