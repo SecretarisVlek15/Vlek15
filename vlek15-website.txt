@@ -90,13 +90,16 @@
         </div>
     </div>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#toerprogramma">Toerprogramma</a>
-        <a href="#spelregels">Spelregels</a>
-        <a href="#routeboek">Routeboek</a>
-        <a href="#nieuws">Het Laatste Nieuws</a>
-    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+<nav id="mobile-menu" style="display: none;">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="spelregels.html">Spelregels</a></li>
+    <li><a href="toerprogramma.html">Toerprogramma</a></li>
+    <li><a href="#routeboek">Routeboek</a></li>
+    <li><a href="#nieuws">Het Laatste Nieuws</a></li>
+  </ul>
+</nav>
 
     <main>
         <section id="home">
