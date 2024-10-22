@@ -4,28 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toerprogramma WTC Vlek15</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link naar je CSS-bestand -->
+    <style>
+        body {
+            font-family: 'Calibri', sans-serif;
+            background-color: #282CFF;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #282CFF;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0057b7;
+            padding: 20px;
+        }
+        .banner img {
+            width: 150px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #004494;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: white;
+        }
+        h2 {
+            font-size: 28px;
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p, li {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "•";
+            color: #FFD700;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Header en navigatiebalk (kopieer van je bestaande website) -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="spelregels.html">Spelregels</a></li>
-                <li><a href="toerprogramma.html">Toerprogramma</a></li>
-                <!-- Voeg hier andere links toe als nodig -->
-            </ul>
-        </nav>
+        <div class="banner">
+            <img src="goudawapen.png" alt="Wapen van Gouda">
+            <div class="circle">
+                Vlek15 Gouda <br> sinds 1984
+            </div>
+        </div>
     </header>
 
-    <!-- Begin van de content van Toerprogramma -->
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="toerprogramma.html">Toerprogramma</a>
+        <a href="spelregels.html">Spelregels</a>
+        <a href="routeboek.html">Routeboek</a>
+        <a href="nieuws.html">Het Laatste Nieuws</a>
+    </nav>
     <main>
         <section>
             <h1>Toerprogramma WTC Vlek15</h1>
 
-            <p>Hieronder vind je het toerprogramma voor de komende maanden. Houd rekening met de vertrektijden en zorg ervoor dat je op tijd bent voor de start van de ritten. Voor vragen kun je contact opnemen met de secretaris.</p>
+            <p>Hieronder vind je het toerprogramma voor de komende maanden. Houd rekening met de vertrektijden en zorg ervoor dat je op tijd bent voor de start van de ritten. 
+                Voor vragen kun je contact opnemen met de secretaris.</p>
 
             <h2>Toerschema</h2>
             <table>
