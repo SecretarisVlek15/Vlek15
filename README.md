@@ -84,7 +84,13 @@ body.homepage {
 body.doorklik {
   background-color: blue; /* Blauwe achtergrond voor doorklikpagina's */
 }
-
+/* Verbergt het menu standaard op mobiel */
+#mobile-menu {
+  display: none;
+  background-color: silver; /* Zilvergrijze achtergrond voor het uitklapmenu */
+  width: 100%;
+  text-align: center;
+}
 
 /* Stijlen voor knoppen */
 button, .btn {
