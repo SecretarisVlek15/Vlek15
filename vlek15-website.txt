@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTC Vlek15 Gouda</title>
-    <style>
-        /* Verbergt het menu standaard */
-#mobile-menu {
-  display: none;
-  background-color: silver; /* Zilvergrijze achtergrond */
-  width: 100%;
-  text-align: center;
-}
+     <link rel="stylesheet" href="styles.css"> <!-- Verwijst naar de CSS -->
+</head>
+<body class="homepage">
+
+  <!-- Menu-icoon voor mobiel -->
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+  <!-- Navigatie voor desktop en mobiel -->
+  <nav>
+    <ul id="desktop-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="spelregels.html">Spelregels</a></li>
+    <li><a href="toerprogramma.html">Toerprogramma</a></li>
+    <li><a href="#routeboek">Routeboek</a></li>
+    <li><a href="#nieuws">Het Laatste Nieuws</a></li>
+    </ul>
+  </nav>
+
+  <!-- Navigatie voor mobiel -->
+  <nav id="mobile-menu">
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="spelregels.html">Spelregels</a></li>
+    <li><a href="toerprogramma.html">Toerprogramma</a></li>
+    <li><a href="#routeboek">Routeboek</a></li>
+    <li><a href="#nieuws">Het Laatste Nieuws</a></li>
+    </ul>
+  </nav>
 
 /* Stijlen voor menu-items */
 #mobile-menu ul {
@@ -73,16 +93,6 @@
         </div>
     </div>
 
-<div class="menu-icon" onclick="toggleMenu()">☰</div>
-<nav id="mobile-menu">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="spelregels.html">Spelregels</a></li>
-    <li><a href="toerprogramma.html">Toerprogramma</a></li>
-    <li><a href="#routeboek">Routeboek</a></li>
-    <li><a href="#nieuws">Het Laatste Nieuws</a></li>
-  </ul>
-</nav>
     
     <main>
         <section class="content">
@@ -115,11 +125,13 @@
         <h2>Whatsapp</h2>
         <p>De uitnodigingen voor de ritten worden geplaatst in het routeboek en vaak ook in de verschillende WhatsApp groepen. Er zijn ook handige groepen voor technische vragen, een Vlek15 marktplaats en nog veel meer. De groepen zijn te vinden op het WhatsApp Vlek15 Informatiekanaal.</p>
 
-        <h2>Kleding en contributie</h2>
+        <h2>contributie</h2>
         <p>Vlek15 is een vereniging met leden. De contributie bedraagt in 2025 € 45 per jaar. De contributie wordt gebruikt voor de huur van onze startpositie van de weekendritten (inclusief koffie voor de start), de pontjes onderweg, het literaire clubblad “Het Laatste Nieuws” en enkele losse activiteiten gedurende het jaar.</p>
 
+        <h2>Vlek15 kleding</h2>
         <p>Vlek15 kleding kan je aanschaffen via <a href="https://vlek15.36cycling.com/nl/shop/" target="_blank">https://vlek15.36cycling.com/nl/shop/</a></p>
 
+        <h2>Aandachtspunt</h2>
         <p>Meerijden is altijd op eigen risico. Van alle deelnemers wordt verwacht dat er veilig gereden wordt. Na afloop wordt de rit geëvalueerd met speciale aandacht voor incidenten en onveilige situaties. Ondanks alle aandacht voor veiligheid kan het misgaan. Realiseer je dat schade die veroorzaakt wordt door andere renner over het algemeen niet valt onder een WA verzekering omdat er sprake is van een sport – en spelsituatie. Schade aan de fiets kun je verzekeren bij de NFTU of KNWU.</p>
     </section>
 
