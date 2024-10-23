@@ -5,8 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTC Vlek15 Gouda</title>
      <link rel="stylesheet" href="styles.css"> <!-- Verwijst naar de CSS -->
+    <style>
+        body {
+            font-family: 'Calibri', sans-serif;
+            background-color: #282CFF; /* Blauw kleurcode */
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #282CFF;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0057b7;
+            padding: 20px;
+        }
+        .banner img {
+            width: 150px;
+        }
+        .banner .circle {
+            width: 150px;
+            height: 150px;
+            background-color: gray;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #004494;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: white;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-<body class="homepage">
+<body>
+
 
   <!-- Menu-icoon voor mobiel -->
   <div class="menu-icon" onclick="toggleMenu()">☰</div>
@@ -32,6 +106,14 @@
     <li><a href="#nieuws">Het Laatste Nieuws</a></li>
     </ul>
   </nav>
+
+/* Verbergt het menu standaard */
+#mobile-menu {
+  display: none;
+  background-color: silver; /* Zilvergrijze achtergrond */
+  width: 100%;
+  text-align: center;
+}
 
 /* Stijlen voor menu-items */
 #mobile-menu ul {
@@ -145,6 +227,3 @@
     }
   }
 </script>
-
-</body>
-</html>
