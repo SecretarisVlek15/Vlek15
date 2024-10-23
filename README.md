@@ -230,7 +230,9 @@ nav ul li a:hover {
     <div class="banner">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
         <div class="circle">
-            <p>  Vlek15 Gouda - sinds 1984 </p>
+            <p>  WTC Vlek15 
+                    Gouda 
+                   sinds 1984 </p>
         </div>
     </div>
 
