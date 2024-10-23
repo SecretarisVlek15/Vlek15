@@ -114,7 +114,7 @@
         </nav>
     </header>
 
-
+    
     
     <main>
         <section class="content">
@@ -156,14 +156,17 @@
         <h2>Aandachtspunt</h2>
         <p>Meerijden is altijd op eigen risico. Van alle deelnemers wordt verwacht dat er veilig gereden wordt. Na afloop wordt de rit geëvalueerd met speciale aandacht voor incidenten en onveilige situaties. Ondanks alle aandacht voor veiligheid kan het misgaan. Realiseer je dat schade die veroorzaakt wordt door andere renner over het algemeen niet valt onder een WA verzekering omdat er sprake is van een sport – en spelsituatie. Schade aan de fiets kun je verzekeren bij de NFTU of KNWU.</p>
     </section>
+</main>
 
 <script>
-  function toggleMenu() {
-    var menu = document.getElementById("mobile-menu");
-    if (menu.style.display === "block") {
-      menu.style.display = "none";
-    } else {
-      menu.style.display = "block";
-    }
-  }
-</script>
+        function toggleMenu() {
+            var menu = document.getElementById("mobile-menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
