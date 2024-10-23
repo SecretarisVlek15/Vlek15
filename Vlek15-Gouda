@@ -78,14 +78,58 @@
             margin-bottom: 10px;
         }
 
+/* Algemene stijlen voor de body */
+body.homepage {
+  background-color: green; /* Groene achtergrond voor de homepage */
+}
+
+body.doorklik {
+  background-color: blue; /* Blauwe achtergrond voor doorklikpagina's */
+}
+
+/* Verbergt het menu standaard op mobiel */
 #mobile-menu {
   display: none;
-  background-color: silver; /* Zilvergrijze achtergrond */
+  background-color: silver; /* Zilvergrijze achtergrond voor het uitklapmenu */
   width: 100%;
   text-align: center;
 }
 
+/* Stijlen voor knoppen */
+button, .btn {
+  background-color: silver; /* Zilvergrijze achtergrond voor knoppen */
+  color: black; /* Zwarte tekst */
+  font-weight: bold; /* Vetgedrukt */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
 
+button:hover, .btn:hover {
+  background-color: #d3d3d3; /* Donkerder grijs bij hover */
+  color: black; /* Zorgt ervoor dat de tekst zwart blijft */
+}
+
+/* Stijlen voor tussenkopjes (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+  color: yellow; /* Gele kleur voor tussenkopjes */
+  font-weight: bold;
+}
+
+/* Stijlen voor hyperlinks */
+a {
+  color: yellow; /* Gele kleur voor links */
+  text-decoration: none; /* Geen onderstreping */
+  font-weight: bold;
+}
+
+a:hover {
+  color: orange; /* Oranje kleur bij hover */
+}
+
+/* Stijlen voor menu-items */
 #mobile-menu ul {
   list-style-type: none;
   padding: 0;
@@ -109,7 +153,7 @@
   color: black; /* Zorgt ervoor dat de tekst zwart blijft */
 }
 
-
+/* Het menu-icoon stijlen */
 .menu-icon {
   font-size: 30px;
   cursor: pointer;
@@ -120,6 +164,29 @@
   text-align: center;
 }
 
+/* Stijlen voor desktop menu */
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 15px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
 /* Media query voor schermen kleiner dan 768px */
 @media (max-width: 768px) {
   .menu-icon {
@@ -127,7 +194,7 @@
   }
 
   nav ul {
-    display: none;
+    display: none; /* Verbergt het menu op mobiel, wordt vervangen door het uitklapmenu */
   }
 }
     </style>
@@ -135,10 +202,9 @@
 <body>
 
 
-  <!-- Menu-icoon voor mobiel -->
-  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  
 
-  <!-- Navigatie voor desktop en mobiel -->
+  <!-- Navigatie voor desktop  -->
   <nav>
     <ul id="desktop-menu">
     <li><a href="index.html">Home</a></li>
@@ -148,6 +214,9 @@
     <li><a href="#nieuws">Het Laatste Nieuws</a></li>
     </ul>
   </nav>
+
+  <!-- Menu-icoon voor mobiel -->
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
 
   <!-- Navigatie voor mobiel -->
   <nav id="mobile-menu">
@@ -168,7 +237,7 @@
     <div class="banner">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
         <div class="circle">
-            <p>Vlek15 Gouda - sinds 1984</p>
+            <p>  Vlek15 Gouda - sinds 1984 </p>
         </div>
     </div>
 
