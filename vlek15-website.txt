@@ -200,7 +200,9 @@ nav ul li a:hover {
 </head>
 <body>
 
-
+<header>
+        <h1>Wielertoerclub Vlek15 Gouda</h1>
+    </header>
   
 
   <!-- Navigatie voor desktop  -->
@@ -228,10 +230,6 @@ nav ul li a:hover {
     </ul>
   </nav>
 
-
-    <header>
-        <h1>Wielertoerclub Vlek15 Gouda</h1>
-    </header>
 
     <div class="banner">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
