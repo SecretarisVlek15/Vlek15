@@ -85,13 +85,6 @@ body.doorklik {
   background-color: blue; /* Blauwe achtergrond voor doorklikpagina's */
 }
 
-/* Verbergt het menu standaard op mobiel */
-#mobile-menu {
-  display: none;
-  background-color: silver; /* Zilvergrijze achtergrond voor het uitklapmenu */
-  width: 100%;
-  text-align: center;
-}
 
 /* Stijlen voor knoppen */
 button, .btn {
@@ -127,29 +120,6 @@ a:hover {
   color: orange; /* Oranje kleur bij hover */
 }
 
-/* Stijlen voor menu-items */
-#mobile-menu ul {
-  list--type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#mobile-menu ul li {
-  padding: 15px;
-  border-bottom: 1px solid black; /* Zwarte lijnen tussen opties */
-}
-
-#mobile-menu ul li a {
-  text-decoration: none;
-  color: black; /* Zwarte tekst */
-  font-weight: bold; /* Vetgedrukt */
-  font-size: 18px;
-}
-
-#mobile-menu ul li a:hover {
-  background-color: #d3d3d3; /* Donkerder grijs bij hover */
-  color: black; /* Zorgt ervoor dat de tekst zwart blijft */
-}
 
 /* Het menu-icoon stijlen */
 .menu-icon {
