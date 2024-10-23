@@ -77,7 +77,7 @@
             font-size: 18px;
             margin-bottom: 10px;
         }
-/* Verbergt het menu standaard */
+
 #mobile-menu {
   display: none;
   background-color: silver; /* Zilvergrijze achtergrond */
@@ -85,7 +85,7 @@
   text-align: center;
 }
 
-/* Stijlen voor menu-items */
+
 #mobile-menu ul {
   list-style-type: none;
   padding: 0;
@@ -109,7 +109,7 @@
   color: black; /* Zorgt ervoor dat de tekst zwart blijft */
 }
 
-/* Het menu-icoon stijlen */
+
 .menu-icon {
   font-size: 30px;
   cursor: pointer;
