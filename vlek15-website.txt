@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTC Vlek15 Gouda</title>
      <link rel="stylesheet" href="styles.css"> <!-- Verwijst naar de CSS -->
-    <style>
+      <style>
         body {
             font-family: 'Calibri', sans-serif;
             background-color: #282CFF; /* Blauw kleurcode */
@@ -69,15 +69,14 @@
             line-height: 1.6;
         }
         ul {
-            list-style-type: none;
+            list--type: none;
             padding: 0;
         }
         ul li {
             font-size: 18px;
             margin-bottom: 10px;
         }
-
-/* Algemene stijlen voor de body */
+        /* Algemene stijlen voor de body */
 body.homepage {
   background-color: green; /* Groene achtergrond voor de homepage */
 }
@@ -130,7 +129,7 @@ a:hover {
 
 /* Stijlen voor menu-items */
 #mobile-menu ul {
-  list-style-type: none;
+  list--type: none;
   padding: 0;
   margin: 0;
 }
@@ -201,6 +200,8 @@ nav ul li a:hover {
 <body>
 
 
+
+
   <!-- Navigatie voor desktop  -->
   <nav>
     <ul id="desktop-menu">
@@ -232,7 +233,7 @@ nav ul li a:hover {
         <div class="circle">
             <p>  WTC Vlek15 
                     Gouda 
-                sinds 1984 </p>
+                   sinds 1984 </p>
         </div>
     </div>
 
@@ -288,5 +289,3 @@ nav ul li a:hover {
     }
   }
 </script>
-</body>
-</html>
