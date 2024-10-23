@@ -200,7 +200,9 @@ nav ul li a:hover {
 </head>
 <body>
 
-
+<header>
+        <h1>Wielertoerclub Vlek15 Gouda</h1>
+    </header>
   
 
   <!-- Navigatie voor desktop  -->
@@ -229,10 +231,6 @@ nav ul li a:hover {
   </nav>
 
 
-    <header>
-        <h1>Wielertoerclub Vlek15 Gouda</h1>
-    </header>
-
     <div class="banner">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
         <div class="circle">
@@ -243,8 +241,8 @@ nav ul li a:hover {
     
     <main>
         <section class="content">
-        <h1>Welkom bij Vlek15</h1>
-        <p>Vlek15 uit Gouda is een open en informele wielerclub voor iedereen. Om mee te kunnen fietsen heb je alleen een goed functionerende racefiets en een fietshelm nodig. Vervolgens kun je lid worden door je aan te melden bij de secretaris van Vlek15 via <a href="mailto:wtcvlek15@gmail.com">wtcvlek15@gmail.com</a></p>
+        <h1>Welkom bij Wielertoerclub Vlek15</h1>
+        <p>WTC Vlek15 uit Gouda is een open en informele wielerclub voor iedereen. Om mee te kunnen fietsen heb je alleen een goed functionerende racefiets en een fietshelm nodig. Vervolgens kun je lid worden door je aan te melden bij de secretaris van Vlek15 via <a href="mailto:wtcvlek15@gmail.com">wtcvlek15@gmail.com</a></p>
 
         <p>De groepsritten hebben een sociaal karakter, er wordt gefietst volgens het principe SUST: Samen Uit, Samen Thuis!</p>
 
