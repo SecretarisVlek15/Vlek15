@@ -198,14 +198,8 @@ nav ul li a:hover {
 }
     </style>
 </head>
+
 <body>
-
-
-
-
-  
-
-
     <div class="banner">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
         <div class="circle">
