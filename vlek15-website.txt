@@ -185,23 +185,6 @@ nav ul li a:hover {
   color: #ddd;
 }
 
-/* Media query voor schermen kleiner dan 768px */
-@media (max-width: 768px) {
-  .menu-icon {
-    display: block;
-  }
-
-  nav ul {
-    display: none; /* Verbergt het menu op mobiel, wordt vervangen door het uitklapmenu */
-  }
-}
-    </style>
-</head>
-<body>
-
-
-
-
   <!-- Navigatie voor desktop  -->
   <nav>
     <ul id="desktop-menu">
@@ -226,6 +209,98 @@ nav ul li a:hover {
     <li><a href="#nieuws">Het Laatste Nieuws</a></li>
     </ul>
   </nav>
+
+/* Media query voor schermen kleiner dan 768px */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  /* Verbergt het desktopmenu op mobiel */
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 15px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+/* Het menu op mobiel */
+#mobile-menu {
+  display: none;
+  background-color: silver; /* Zilvergrijze achtergrond */
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50px; /* Zorgt dat het menu onder de menubalk verschijnt */
+  left: 0;
+  z-index: 999; /* Zorgt dat het menu voor andere content wordt getoond */
+}
+
+/* De lijstitems van het mobiele menu */
+#mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mobile-menu ul li {
+  padding: 15px;
+  border-bottom: 1px solid black; /* Zwarte lijnen tussen opties */
+}
+
+#mobile-menu ul li a {
+  text-decoration: none;
+  color: black; /* Zwarte tekst */
+  font-weight: bold; /* Vetgedrukt */
+  font-size: 18px;
+}
+
+#mobile-menu ul li a:hover {
+  background-color: #d3d3d3; /* Donkerder grijs bij hover */
+  color: black; /* Zorgt ervoor dat de tekst zwart blijft */
+}
+
+/* Het menu-icoon stijlen */
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  display: none; /* Verborgen op desktop */
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+/* Media query voor schermen kleiner dan 768px */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  nav ul {
+    display: none; /* Verbergt het desktop menu */
+  }
+}
+    </style>
+</head>
+<body>
+
+
 
 
     <div class="banner">
