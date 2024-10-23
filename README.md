@@ -289,5 +289,3 @@ nav ul li a:hover {
     }
   }
 </script>
-</body>
-</html>
