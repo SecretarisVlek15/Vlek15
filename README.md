@@ -3,8 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTC Vlek15 Gouda</title>
-     <link rel="stylesheet" href="styles.css"> <!-- Verwijst naar de CSS -->
-      <style>
+    <link rel="stylesheet" href="styles.css"> <!-- Verwijst naar de CSS -->
+    <style>
         body {
             font-family: 'Calibri', sans-serif;
             background-color: #282CFF; /* Blauw kleurcode */
@@ -13,8 +13,7 @@
             padding: 0;
         }
 
-
-/* Menu voor desktop */
+        /* Menu voor desktop */
         .menu {
             display: flex;
             justify-content: center;
@@ -73,152 +72,6 @@
             text-align: center;
         }
 
-header {
-            background-color: #282CFF;
-            padding: 10px;
-            text-align: center;
-            color: white;
-        }
-        .banner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #0057b7;
-            padding: 20px;
-        }
-        .banner img {
-            width: 150px;
-        }
-        .banner .circle {
-            width: 150px;
-            height: 150px;
-            background-color: gray;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: black;
-            font-weight: bold;
-            font-size: 18px;
-        }
-        .menu {
-            display: flex;
-            justify-content: center;
-            background-color: #004494;
-            padding: 10px;
-        }
-        .menu a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        .menu a:hover {
-            text-decoration: underline;
-        }
-        .content {
-            padding: 20px;
-            text-align: left;
-        }
-        h1 {
-            text-align: center;
-            font-size: 36px;
-            color: white;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        ul {
-            list--type: none;
-            padding: 0;
-        }
-        ul li {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        /* Algemene stijlen voor de body */
-body.homepage {
-  background-color: green; /* Groene achtergrond voor de homepage */
-}
-
-body.doorklik {
-  background-color: blue; /* Blauwe achtergrond voor doorklikpagina's */
-}
-
-/* Stijlen voor knoppen */
-button, .btn {
-  background-color: silver; /* Zilvergrijze achtergrond voor knoppen */
-  color: black; /* Zwarte tekst */
-  font-weight: bold; /* Vetgedrukt */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-button:hover, .btn:hover {
-  background-color: #d3d3d3; /* Donkerder grijs bij hover */
-  color: black; /* Zorgt ervoor dat de tekst zwart blijft */
-}
-
-/* Stijlen voor tussenkopjes (h1, h2, h3, etc.) */
-h1, h2, h3, h4, h5, h6 {
-  color: yellow; /* Gele kleur voor tussenkopjes */
-  font-weight: bold;
-}
-
-/* Stijlen voor hyperlinks */
-a {
-  color: yellow; /* Gele kleur voor links */
-  text-decoration: none; /* Geen onderstreping */
-  font-weight: bold;
-}
-
-a:hover {
-  color: orange; /* Oranje kleur bij hover */
-}
-
-
-/* Het menu-icoon stijlen */
-.menu-icon {
-  font-size: 30px;
-  cursor: pointer;
-  display: none; /* Verborgen op desktop */
-  padding: 15px;
-  background-color: #333;
-  color: white;
-  text-align: center;
-}
-
-/* Stijlen voor desktop menu */
-nav ul {
-  display: flex;
-  justify-content: center;
-  background-color: #333;
-  padding: 15px;
-}
-
-nav ul li {
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-nav ul li a:hover {
-  color: #ddd;
-}
-
-  
-
-/* Media query voor schermen kleiner dan 768px */
-
         @media (max-width: 768px) {
             .menu-icon {
                 display: block;
@@ -227,7 +80,9 @@ nav ul li a:hover {
                 display: none;
             }
         }
-
+    </style>
+</head>
+<body>
 
     <header>
         <div class="banner">
@@ -258,19 +113,6 @@ nav ul li a:hover {
             </ul>
         </nav>
     </header>
-    </style>
-</head>
-<body>
-
-
-    <div class="banner">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
-        <div class="circle">
-            <p>  WTC Vlek15 
-                    Gouda 
-                   sinds 1984 </p>
-        </div>
-    </div>
 
 
     
