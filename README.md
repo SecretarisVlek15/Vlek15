@@ -5,76 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTC Vlek15 Gouda</title>
     <style>
-        body {
-            font-family: Calibri, sans-serif;
-            background-color: #282C;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
+        /* Verbergt het menu standaard */
+#mobile-menu {
+  display: none;
+  background-color: silver; /* Zilvergrijze achtergrond */
+  width: 100%;
+  text-align: center;
+}
 
-        header {
-            background-color: #1B1E3D;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
+/* Stijlen voor menu-items */
+#mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-        .banner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #1B1E3D;
-            padding: 20px;
-        }
+#mobile-menu ul li {
+  padding: 15px;
+  border-bottom: 1px solid black; /* Zwarte lijnen tussen opties */
+}
 
-        .banner img {
-            width: 150px;
-        }
+#mobile-menu ul li a {
+  text-decoration: none;
+  color: black; /* Zwarte tekst */
+  font-weight: bold; /* Vetgedrukt */
+  font-size: 18px;
+}
 
-        .circle {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            background-color: grey;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: black;
-            font-size: 20px;
-            text-align: center;
-        }
+#mobile-menu ul li a:hover {
+  background-color: #d3d3d3; /* Donkerder grijs bij hover */
+  color: black; /* Zorgt ervoor dat de tekst zwart blijft */
+}
 
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
+/* Het menu-icoon stijlen */
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  display: none; /* Verborgen op desktop */
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
 
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
+/* Media query voor schermen kleiner dan 768px */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
 
-        nav a:hover {
-            background-color: #575757;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        h1, h2, h3 {
-            color: #FFD700; /* Goudkleur voor koppen */
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #1B1E3D;
-        }
+  nav ul {
+    display: none;
+  }
+}
     </style>
 </head>
 <body>
@@ -91,7 +74,7 @@
     </div>
 
 <div class="menu-icon" onclick="toggleMenu()">☰</div>
-<nav id="mobile-menu" style="display: none;">
+<nav id="mobile-menu">
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="spelregels.html">Spelregels</a></li>
@@ -139,6 +122,17 @@
 
         <p>Meerijden is altijd op eigen risico. Van alle deelnemers wordt verwacht dat er veilig gereden wordt. Na afloop wordt de rit geëvalueerd met speciale aandacht voor incidenten en onveilige situaties. Ondanks alle aandacht voor veiligheid kan het misgaan. Realiseer je dat schade die veroorzaakt wordt door andere renner over het algemeen niet valt onder een WA verzekering omdat er sprake is van een sport – en spelsituatie. Schade aan de fiets kun je verzekeren bij de NFTU of KNWU.</p>
     </section>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById("mobile-menu");
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "block";
+    }
+  }
+</script>
 
 </body>
 </html>
