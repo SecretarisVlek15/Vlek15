@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
@@ -251,12 +250,12 @@ nav ul li a:hover {
 
         <p>Van februari t/m oktober vertrekken we afwisselend op zaterdag- en zondagochtend vanaf wijkcentrum Van Noord aan de Lekkenburg in Gouda. Zie voor vertrektijden en afstanden het toerschema. Vanaf een kwartier voor de start ben je welkom voor inloop met een kop koffie. We vertrekken stipt op het tijdstip van het toerprogramma.</p>
 
-        <p>Vanaf eind maart t/m eind september rijden we ook op dinsdag-en woensdagavond. Zie voor vertrektijden het toerschema.</p>
+        <p>Vanaf eind maart t/m eind september rijden we ook op dinsdag-en woensdagavond. Zie voor vertrektijden het toerprogramma.</p>
 
         <h2>Nieuw bij Vlek15?</h2>
-        <p>Tijdens je eerste ritten leer je onze gebaren/signalen, daarnaast bespreken we de onderlinge afspraken. Je hoeft je niet vooraf aan te melden (mag zeker wel), je kunt gewoon langskomen en vragen naar de dienstdoende ritmeester.</p>
+        <p>Tijdens je eerste ritten leer je onze gebaren/signalen, daarnaast bespreken we de onderlinge afspraken. Je hoeft je niet vooraf aan te melden (mag zeker wel), je kunt dus gewoon langskomen en vragen naar de dienstdoende ritmeester.</p>
 
-        <h2>Het Routeboek</h2>
+        <h2>Ons routeboek</h2>
         <p>Vlek15 beschikt over een fantastisch routeboek met meer dan 100 routes voor de racefiets. Een rit organiseren, een uitnodiging plaatsen en aanmelden kan in het routeboek.</p>
 
         <p>Zie <a href="https://routeboek.cc/club/vlek15" target="_blank">https://routeboek.cc/club/vlek15</a></p>
@@ -273,7 +272,7 @@ nav ul li a:hover {
         <h2>Whatsapp</h2>
         <p>De uitnodigingen voor de ritten worden geplaatst in het routeboek en vaak ook in de verschillende WhatsApp groepen. Er zijn ook handige groepen voor technische vragen, een Vlek15 marktplaats en nog veel meer. De groepen zijn te vinden op het WhatsApp Vlek15 Informatiekanaal.</p>
 
-        <h2>contributie</h2>
+        <h2>Contributie</h2>
         <p>Vlek15 is een vereniging met leden. De contributie bedraagt in 2025 € 45 per jaar. De contributie wordt gebruikt voor de huur van onze startpositie van de weekendritten (inclusief koffie voor de start), de pontjes onderweg, het literaire clubblad “Het Laatste Nieuws” en enkele losse activiteiten gedurende het jaar.</p>
 
         <h2>Vlek15 kleding</h2>
