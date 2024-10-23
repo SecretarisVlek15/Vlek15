@@ -77,36 +77,6 @@
             font-size: 18px;
             margin-bottom: 10px;
         }
-    </style>
-</head>
-<body>
-
-
-  <!-- Menu-icoon voor mobiel -->
-  <div class="menu-icon" onclick="toggleMenu()">☰</div>
-
-  <!-- Navigatie voor desktop en mobiel -->
-  <nav>
-    <ul id="desktop-menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="spelregels.html">Spelregels</a></li>
-    <li><a href="toerprogramma.html">Toerprogramma</a></li>
-    <li><a href="#routeboek">Routeboek</a></li>
-    <li><a href="#nieuws">Het Laatste Nieuws</a></li>
-    </ul>
-  </nav>
-
-  <!-- Navigatie voor mobiel -->
-  <nav id="mobile-menu">
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="spelregels.html">Spelregels</a></li>
-    <li><a href="toerprogramma.html">Toerprogramma</a></li>
-    <li><a href="#routeboek">Routeboek</a></li>
-    <li><a href="#nieuws">Het Laatste Nieuws</a></li>
-    </ul>
-  </nav>
-
 /* Verbergt het menu standaard */
 #mobile-menu {
   display: none;
@@ -163,6 +133,33 @@
     </style>
 </head>
 <body>
+
+
+  <!-- Menu-icoon voor mobiel -->
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+  <!-- Navigatie voor desktop en mobiel -->
+  <nav>
+    <ul id="desktop-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="spelregels.html">Spelregels</a></li>
+    <li><a href="toerprogramma.html">Toerprogramma</a></li>
+    <li><a href="#routeboek">Routeboek</a></li>
+    <li><a href="#nieuws">Het Laatste Nieuws</a></li>
+    </ul>
+  </nav>
+
+  <!-- Navigatie voor mobiel -->
+  <nav id="mobile-menu">
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="spelregels.html">Spelregels</a></li>
+    <li><a href="toerprogramma.html">Toerprogramma</a></li>
+    <li><a href="#routeboek">Routeboek</a></li>
+    <li><a href="#nieuws">Het Laatste Nieuws</a></li>
+    </ul>
+  </nav>
+
 
     <header>
         <h1>Wielertoerclub Vlek15 Gouda</h1>
