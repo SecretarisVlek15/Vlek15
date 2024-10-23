@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTC Vlek15 Gouda</title>
      <link rel="stylesheet" href="styles.css"> <!-- Verwijst naar de CSS -->
-    <style>
+      <style>
         body {
             font-family: 'Calibri', sans-serif;
             background-color: #282CFF; /* Blauw kleurcode */
@@ -69,7 +69,7 @@
             line-height: 1.6;
         }
         ul {
-            list-style-type: none;
+            list--type: none;
             padding: 0;
         }
         ul li {
@@ -129,7 +129,7 @@ a:hover {
 
 /* Stijlen voor menu-items */
 #mobile-menu ul {
-  list-style-type: none;
+  list--type: none;
   padding: 0;
   margin: 0;
 }
