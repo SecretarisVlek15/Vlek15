@@ -203,7 +203,19 @@ nav ul li a:hover {
 
 
 
-  <!-- Navigatie voor desktop  -->
+  
+
+
+    <div class="banner">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
+        <div class="circle">
+            <p>  WTC Vlek15 
+                    Gouda 
+                   sinds 1984 </p>
+        </div>
+    </div>
+
+<!-- Navigatie voor desktop  -->
   <nav>
     <ul id="desktop-menu">
     <li><a href="index.html">Home</a></li>
@@ -227,17 +239,6 @@ nav ul li a:hover {
     <li><a href="#nieuws">Het Laatste Nieuws</a></li>
     </ul>
   </nav>
-
-
-    <div class="banner">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
-        <div class="circle">
-            <p>  WTC Vlek15 
-                    Gouda 
-                   sinds 1984 </p>
-        </div>
-    </div>
-
     <section class="content">
         <h1>Spelregels WTC Vlek15</h1>
 
