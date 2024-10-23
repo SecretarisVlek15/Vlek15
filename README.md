@@ -200,10 +200,6 @@ nav ul li a:hover {
 </head>
 <body>
 
-<header>
-        <h1>Wielertoerclub Vlek15 Gouda</h1>
-    </header>
-  
 
   <!-- Navigatie voor desktop  -->
   <nav>
