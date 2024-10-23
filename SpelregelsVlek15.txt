@@ -233,6 +233,8 @@ nav ul li a:hover {
     <li><a href="#nieuws">Het Laatste Nieuws</a></li>
     </ul>
   </nav>
+
+<main>
     <section class="content">
         <h1>Spelregels WTC Vlek15</h1>
 
