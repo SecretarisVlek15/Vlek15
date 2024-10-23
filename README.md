@@ -76,8 +76,7 @@
             font-size: 18px;
             margin-bottom: 10px;
         }
-
-/* Algemene stijlen voor de body */
+        /* Algemene stijlen voor de body */
 body.homepage {
   background-color: green; /* Groene achtergrond voor de homepage */
 }
@@ -199,6 +198,8 @@ nav ul li a:hover {
     </style>
 </head>
 <body>
+
+
 
 
   <!-- Navigatie voor desktop  -->
