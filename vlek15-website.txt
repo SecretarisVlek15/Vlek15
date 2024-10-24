@@ -170,7 +170,9 @@ a:hover {
         <p>Alle groepsritten hebben een sociaal karakter, er wordt gefietst volgens het principe SUST: Samen Uit, Samen Thuis!</p>
 
         <h2>Nieuw bij Vlek15?</h2>
-        <p>Tijdens je eerste ritten leer je onze gebaren/signalen, daarnaast bespreken we de onderlinge afspraken. Je hoeft je niet vooraf aan te melden (mag zeker wel), je kunt dus gewoon langskomen en vragen naar de dienstdoende ritmeester. Zie voor vertrektijden het toerprogramma. Let op : we vertrekken stipt op het tijdstip van het toerprogramma. Je kunt één of meerdere keren met ons meefietsen en daarna besluiten om lid te worden. Wil je misschien enige informatie vooraf ? Neem dan contact op met de secretaris van Vlek15 via <a href="mailto:wtcvlek15@gmail.com">wtcvlek15@gmail.com</a></p>
+        <p>Lijkt het je leuk om met ons mee te fietsen ? Je bent van harte welkom om geheel vrijblijvend één of meerdere keren op proef met ons mee te fietsen.Tijdens je eerste ritten leer je onze gebaren/signalen, daarnaast bespreken we de onderlinge afspraken. Je hoeft je hier niet vooraf voor aan te melden. </p>
+        
+        </p>Wil je graag enige informatie vooraf?  Neem dan contact op met de secretaris van Vlek15 via <a href="mailto:wtcvlek15@gmail.com">wtcvlek15@gmail.com</a> Of kom spontaan langs voor het vertrek van een rit. Zie voor vertrektijden het toerprogramma. </p>
 
                 <h2>Niveaus</h2>
         <ul>
@@ -182,7 +184,7 @@ a:hover {
         </ul>
 
         <h2>Ons toerprogramma</h2>
-        <p>Vlek15 stelt elk jaar een prachtig toerprogramma samen. HVoor de weekendritten zijn afzonderlijke ritten opgenomen voor de Masters en de Doortrappers. Ook is er een (beperkt) aantal ritten waarbij de Masters en de Doortrappers gezamnelijk opfietsen. Dat zorgt voor extra gezelligheid en verbondenheid binnen onze club. Het actuele toerprogramma vind je via de menubalk van de website </p>
+        <p>Vlek15 stelt elk jaar een prachtig toerprogramma samen. Voor de weekendritten zijn afzonderlijke ritten opgenomen voor de Masters en de Doortrappers. Ook is er een (beperkt) aantal ritten waarbij de Masters en de Doortrappers gezamnelijk opfietsen. Dat zorgt voor extra gezelligheid en verbondenheid binnen onze club. Het actuele toerprogramma vind je via de menubalk van de website </p>
 
         <h2>WhatsApp</h2>
         <p>Wekelijks versturen we via WhatsApp een toelichting op de komende weekendritten naar onze leden. Ook andere relevante nieuwtjes voor Vlek15 worden via WhatsApp gedeeld. Alle leden van Vlek15 maken onderdeel uit van deze WhatsApp-groep, maar alleen de beheerders  kunnen berichten versturen (of nieuwe leden toelaten). Op deze manier voorken we onnodige spam in je WhatsApp-box. </p>
