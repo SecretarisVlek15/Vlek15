@@ -13,6 +13,48 @@
             padding: 0;
         }
 
+        /* Stijlen voor knoppen */
+button, .btn {
+  background-color: silver; /* Zilvergrijze achtergrond voor knoppen */
+  color: black; /* Zwarte tekst */
+  font-weight: bold; /* Vetgedrukt */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: #d3d3d3; /* Donkerder grijs bij hover */
+  color: black; /* Zorgt ervoor dat de tekst zwart blijft */
+}
+
+/* Stijlen voor tussenkopjes (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+  color: yellow; /* Gele kleur voor tussenkopjes */
+  font-weight: bold;
+}
+
+/* Stijlen voor hyperlinks */
+a {
+  color: yellow; /* Gele kleur voor links */
+  text-decoration: none; /* Geen onderstreping */
+  font-weight: bold;
+}
+
+a:hover {
+  color: orange; /* Oranje kleur bij hover */
+}
+
+/* Stijlen voor menu-items */
+#mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
         /* Menu voor desktop */
         .menu {
             display: flex;
