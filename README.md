@@ -161,33 +161,31 @@ a:hover {
     <main>
         <section class="content">
         <h1>Welkom bij Wielertoerclub Vlek15</h1>
-        <p>WTC Vlek15 uit Gouda is een open en informele wielerclub voor iedereen. Om mee te kunnen fietsen heb je alleen een goed functionerende racefiets en een fietshelm nodig. Vervolgens kun je lid worden door je aan te melden bij de secretaris van Vlek15 via <a href="mailto:wtcvlek15@gmail.com">wtcvlek15@gmail.com</a></p>
+        <p>WTC Vlek15 uit Gouda is een open en informele wielerclub voor iedereen. Om mee te kunnen fietsen heb je alleen een goed functionerende racefiets en een fietshelm nodig. </p>
 
-        <p>De groepsritten hebben een sociaal karakter, er wordt gefietst volgens het principe SUST: Samen Uit, Samen Thuis!</p>
-
-        <p>Van februari t/m oktober vertrekken we afwisselend op zaterdag- en zondagochtend vanaf wijkcentrum Van Noord aan de Lekkenburg in Gouda. Zie voor vertrektijden en afstanden het toerschema. Vanaf een kwartier voor de start ben je welkom voor inloop met een kop koffie. We vertrekken stipt op het tijdstip van het toerprogramma.</p>
-
+        <p>Van februari t/m oktober vertrekken we afwisselend op zaterdag- en zondagochtend vanaf wijkcentrum Van Noord (adres: Lekkenburg 1, 2804 XJ te Gouda). Zie voor vertrektijden en afstanden het toersprogramma. Vanaf een kwartier voor de start ben je welkom voor inloop met een kop koffie. </p>
+        
         <p>Vanaf eind maart t/m eind september rijden we ook op dinsdag-en woensdagavond. Zie voor vertrektijden het toerprogramma.</p>
 
+        <p>Alle groepsritten hebben een sociaal karakter, er wordt gefietst volgens het principe SUST: Samen Uit, Samen Thuis!</p>
+
         <h2>Nieuw bij Vlek15?</h2>
-        <p>Tijdens je eerste ritten leer je onze gebaren/signalen, daarnaast bespreken we de onderlinge afspraken. Je hoeft je niet vooraf aan te melden (mag zeker wel), je kunt dus gewoon langskomen en vragen naar de dienstdoende ritmeester.</p>
+        <p>Tijdens je eerste ritten leer je onze gebaren/signalen, daarnaast bespreken we de onderlinge afspraken. Je hoeft je niet vooraf aan te melden (mag zeker wel), je kunt dus gewoon langskomen en vragen naar de dienstdoende ritmeester. Zie voor vertrektijden het toerprogramma. Let op : we vertrekken stipt op het tijdstip van het toerprogramma. Je kunt één of meerdere keren met ons meefietsen en daarna besluiten om lid te worden. Wil je misschien enige informatie vooraf ? Neem dan contact op met de secretaris van Vlek15 via <a href="mailto:wtcvlek15@gmail.com">wtcvlek15@gmail.com</a></p>
 
-        <h2>Ons routeboek</h2>
-        <p>Vlek15 beschikt over een fantastisch routeboek met meer dan 100 routes voor de racefiets. Een rit organiseren, een uitnodiging plaatsen en aanmelden kan in het routeboek.</p>
-
-        <p>Zie <a href="https://routeboek.cc/club/vlek15" target="_blank">https://routeboek.cc/club/vlek15</a></p>
-
-        <h2>Niveaus</h2>
+                <h2>Niveaus</h2>
         <ul>
             <li>Weekendrit Masters » gemiddelde snelheid 25 km/h</li>
-            <li>Weekendrit Doortrappers » gemiddelde snelheid 28-30 km/h</li>
+            <li>Weekendrit Doortrappers » gemiddelde snelheid 28 km/h</li>
             <li>Avondrit Masters » gemiddelde snelheid 27 km/h</li>
             <li>Avondrit Doortrappers » gemiddelde snelheid 31 km/h</li>
             <li>Avondrit Buffels » gemiddelde snelheid 35 km/h</li>
         </ul>
 
-        <h2>Whatsapp</h2>
-        <p>De uitnodigingen voor de ritten worden geplaatst in het routeboek en vaak ook in de verschillende WhatsApp groepen. Er zijn ook handige groepen voor technische vragen, een Vlek15 marktplaats en nog veel meer. De groepen zijn te vinden op het WhatsApp Vlek15 Informatiekanaal.</p>
+        <h2>Ons toerprogramma</h2>
+        <p>Vlek15 stelt elk jaar een prachtig toerprogramma samen. HVoor de weekendritten zijn afzonderlijke ritten opgenomen voor de Masters en de Doortrappers. Ook is er een (beperkt) aantal ritten waarbij de Masters en de Doortrappers gezamnelijk opfietsen. Dat zorgt voor extra gezelligheid en verbondenheid binnen onze club. Het actuele toerprogramma vind je via de menubalk van de website </p>
+
+        <h2>WhatsApp</h2>
+        <p>Wekelijks versturen we via WhatsApp een toelichting op de komende weekendritten naar onze leden. Ook andere relevante nieuwtjes voor Vlek15 worden via WhatsApp gedeeld. Alle leden van Vlek15 maken onderdeel uit van deze WhatsApp-groep, maar alleen de beheerders  kunnen berichten versturen (of nieuwe leden toelaten). Op deze manier voorken we onnodige spam in je WhatsApp-box. </p>
 
         <h2>Contributie</h2>
         <p>Vlek15 is een vereniging met leden. De contributie bedraagt in 2025 € 45 per jaar. De contributie wordt gebruikt voor de huur van onze startpositie van de weekendritten (inclusief koffie voor de start), de pontjes onderweg, het literaire clubblad “Het Laatste Nieuws” en enkele losse activiteiten gedurende het jaar.</p>
