@@ -32,13 +32,13 @@ button:hover, .btn:hover {
 
 /* Stijlen voor tussenkopjes (h1, h2, h3, etc.) */
 h1, h2, h3, h4, h5, h6 {
-  color: yellow; /* Gele kleur voor tussenkopjes */
+  color: #FFD700; /* Goudgele kleur voor tussenkopjes */
   font-weight: bold;
 }
 
 /* Stijlen voor hyperlinks */
 a {
-  color: yellow; /* Gele kleur voor links */
+  color: #FFD700; /* Goudgele kleur voor links */
   text-decoration: none; /* Geen onderstreping */
   font-weight: bold;
 }
