@@ -139,7 +139,6 @@ a:hover {
                 <li><a href="index.html">Home</a></li>
                 <li><a href="spelregels.html">Spelregels</a></li>
                 <li><a href="toerprogramma.html">Toerprogramma</a></li>
-                <li><a href="#routeboek">Routeboek</a></li>
                 <li><a href="#nieuws">Het Laatste Nieuws</a></li>
             </ul>
         </nav>
@@ -150,7 +149,6 @@ a:hover {
                 <li><a href="index.html">Home</a></li>
                 <li><a href="spelregels.html">Spelregels</a></li>
                 <li><a href="toerprogramma.html">Toerprogramma</a></li>
-                <li><a href="#routeboek">Routeboek</a></li>
                 <li><a href="#nieuws">Het Laatste Nieuws</a></li>
             </ul>
         </nav>
@@ -163,7 +161,7 @@ a:hover {
         <h1>Welkom bij Wielertoerclub Vlek15</h1>
         <p>WTC Vlek15 uit Gouda is een open en informele wielerclub voor iedereen. Om mee te kunnen fietsen heb je alleen een goed functionerende racefiets en een fietshelm nodig. </p>
 
-        <p>Van februari t/m oktober vertrekken we afwisselend op zaterdag- en zondagochtend vanaf wijkcentrum Van Noord (adres: Lekkenburg 1, 2804 XJ te Gouda). Zie voor vertrektijden en afstanden het toersprogramma. Vanaf een kwartier voor de start ben je welkom voor inloop met een kop koffie. </p>
+        <p>Van februari t/m oktober vertrekken we afwisselend op zaterdag- en zondagochtend vanaf wijkcentrum Van Noord (adres: Lekkenburg 1, 2804 XJ te Gouda). Zie voor vertrektijden en afstanden het toerprogramma. Vanaf een kwartier voor de start ben je welkom voor inloop met een kop koffie. </p>
         
         <p>Vanaf eind maart t/m eind september rijden we ook op dinsdag-en woensdagavond. Zie voor vertrektijden het toerprogramma.</p>
 
@@ -172,7 +170,7 @@ a:hover {
         <h2>Nieuw bij Vlek15?</h2>
         <p>Lijkt het je leuk om met ons mee te fietsen ? Je bent van harte welkom om geheel vrijblijvend één of meerdere keren op proef met ons mee te fietsen.Tijdens je eerste ritten leer je onze gebaren/signalen, daarnaast bespreken we de onderlinge afspraken. Je hoeft je hier niet vooraf voor aan te melden. </p>
         
-        </p>Wil je graag enige informatie vooraf?  Neem dan contact op met de secretaris van Vlek15 via <a href="mailto:wtcvlek15@gmail.com">wtcvlek15@gmail.com</a> Of kom spontaan langs voor het vertrek van een rit. Zie voor vertrektijden het toerprogramma. </p>
+        Wil je graag enige informatie vooraf?  Neem dan contact op met de secretaris van Vlek15 via <a href="mailto:wtcvlek15@gmail.com">wtcvlek15@gmail.com</a> Of kom spontaan langs voor het vertrek van een rit. Zie voor vertrektijden het toerprogramma. </p>
 
                 <h2>Niveaus</h2>
         <ul>
