@@ -161,14 +161,15 @@ a:hover {
         <section>
             <h1>Toerprogramma WTC Vlek15</h1>
 
-            <p>Het toerprogramma 2024 zit erop!<>
+            <p>Het toerprogramma 2024 zit erop!</p>
 
-<li> Verdeeld over 32 weekenden en ritten die varieerden tussen 60 en 200 kilometer hebben we gezamenlijk met meer dan 500 deelnames ruim 55 duizend kilometer weggetrapt.<li>
-<li> In de avonden reden we met 200 deelnames samen ruim 12 duizend kilometer krom gebogen over het stuur door de regio Gouda.<li>
-
-<li>Het toerprogramma voor 2025 is nog "under construction". Dit zal begin 2025 op deze website worden gepubliceerd.<li>
-<li>Hieronder als test een voorproefje. Uiteraard starten elke rit bij wijkcentrum Van Noord, Lekkenburg 1 te Gouda<li>. 
-               </p>
+<li> Verdeeld over 32 weekenden en ritten van 70 tot 140 kilometer (en een paar uitschieters daar boven) hebben we gezamenlijk ruim 55 duizend kilometer weggetrapt.</li>
+<li> Gemiddeld reden we zowel bij de Masters (T25) als de Doortrappers (T28) met zo'n 8 renners (m/v) per rit.</li>
+<li> In de avonden reden we met 200 deelnames samen ruim 12 duizend kilometer krom gebogen over het stuur door de regio Gouda.</li>
+<p></p>
+<li>Het toerprogramma voor 2025 is nog "under construction". Dit zal begin 2025 op deze website worden gepubliceerd.</li>
+<li>Hieronder als test een voorproefje. Uiteraard starten we iedere rit vanaf wijkcentrum Van Noord, Lekkenburg 1 te Gouda.</li>. 
+              
 
             <h2>Toerschema</h2>
             <table>
