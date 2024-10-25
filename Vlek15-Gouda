@@ -30,10 +30,13 @@ button:hover, .btn:hover {
   color: black; /* Zorgt ervoor dat de tekst zwart blijft */
 }
 
-/* Stijlen voor tussenkopjes (h1, h2, h3, etc.) */
+/* Globale stijlen voor kopjes met een lijn eronder */
 h1, h2, h3, h4, h5, h6 {
-  color: #FFD700; /* Goudgele kleur voor tussenkopjes */
+  color: #FFD700; /* Goudgele kleur */
   font-weight: bold;
+  border-bottom: 2px solid #FFD700; /* Lijn onder elk kopje */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* Stijlen voor hyperlinks */
@@ -114,32 +117,31 @@ a:hover {
             text-align: center;
         }
 
-        @media (max-width: 768px) {
-            .menu-icon {
-                display: block;
-            }
-            nav ul {
-                display: none;
-            }
-        }
+       /* Mobiele weergave: zorg voor consistente lettergrootte */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  /* Pas eventueel de andere kopjes aan op dezelfde manier */
+}
     </style>
 </head>
 <body>
 
     <header>
-        <div class="banner">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Wapen_van_Gouda.svg/200px-Wapen_van_Gouda.svg.png" alt="Wapen van Gouda">
-            <div class="circle">
-                <p>WTC Vlek15 Gouda sinds 1984</p>
-            </div>
-        </div>
+        
         <!-- Menu voor desktop -->
         <nav>
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="spelregels.html">Spelregels</a></li>
                 <li><a href="toerprogramma.html">Toerprogramma</a></li>
-                <li><a href="#routeboek">Routeboek</a></li>
                 <li><a href="#nieuws">Het Laatste Nieuws</a></li>
             </ul>
         </nav>
@@ -150,12 +152,10 @@ a:hover {
                 <li><a href="index.html">Home</a></li>
                 <li><a href="spelregels.html">Spelregels</a></li>
                 <li><a href="toerprogramma.html">Toerprogramma</a></li>
-                <li><a href="#routeboek">Routeboek</a></li>
                 <li><a href="#nieuws">Het Laatste Nieuws</a></li>
             </ul>
         </nav>
     </header>
-
     
     
     <main>
