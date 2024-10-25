@@ -170,6 +170,20 @@ a:hover {
 
         <p>Alle groepsritten hebben een sociaal karakter, er wordt gefietst volgens het principe SUST: Samen Uit, Samen Thuis!</p>
 
+        <div class="image-container">
+        #vlek15-kleding {
+    text-align: center;
+    padding: 20px; /* Voeg wat ruimte toe rond het kopje en de afbeelding */
+}
+
+.image-container img {
+    max-width: 100%; /* Zorgt ervoor dat de afbeelding niet breder is dan het scherm */
+    height: auto; /* Houdt de proporties van de afbeelding intact */
+    display: inline-block;
+}
+        <img src="H:\Mijn documenten\___Vlek 15 secretaris\webzite/Groepsfoto.jpeg" alt="Vlek15 kleding afbeelding">
+    </div>
+
         <h2>Nieuw bij Vlek15?</h2>
         <p>Lijkt het je leuk om met ons mee te fietsen ? Je bent van harte welkom om geheel vrijblijvend één of meerdere keren op proef met ons mee te fietsen.Tijdens je eerste ritten leer je onze gebaren/signalen, daarnaast bespreken we de onderlinge afspraken. Je hoeft je hier niet vooraf voor aan te melden. </p>
         
@@ -195,6 +209,7 @@ a:hover {
 
         <h2>Vlek15 kleding</h2>
         <p>Vlek15 kleding kan je aanschaffen via <a href="https://vlek15.36cycling.com/nl/shop/" target="_blank">https://vlek15.36cycling.com/nl/shop/</a></p>
+
 
         <h2>Aandachtspunt</h2>
         <p>Meerijden is altijd op eigen risico. Van alle deelnemers wordt verwacht dat er veilig gereden wordt. Na afloop wordt de rit geëvalueerd met speciale aandacht voor incidenten en onveilige situaties. Ondanks alle aandacht voor veiligheid kan het misgaan. Realiseer je dat schade die veroorzaakt wordt door andere renner over het algemeen niet valt onder een WA verzekering omdat er sprake is van een sport – en spelsituatie. Schade aan de fiets kun je verzekeren bij de NFTU of KNWU.</p>
