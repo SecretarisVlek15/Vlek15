@@ -171,16 +171,6 @@ a:hover {
         <p>Alle groepsritten hebben een sociaal karakter, er wordt gefietst volgens het principe SUST: Samen Uit, Samen Thuis!</p>
 
         <div class="image-container">
-        #vlek15-kleding {
-    text-align: center;
-    padding: 20px; /* Voeg wat ruimte toe rond het kopje en de afbeelding */
-}
-
-.image-container img {
-    max-width: 100%; /* Zorgt ervoor dat de afbeelding niet breder is dan het scherm */
-    height: auto; /* Houdt de proporties van de afbeelding intact */
-    display: inline-block;
-}
         <img src="H:\Mijn documenten\___Vlek 15 secretaris\webzite/Groepsfoto.jpeg" alt="Vlek15 kleding afbeelding">
     </div>
 
