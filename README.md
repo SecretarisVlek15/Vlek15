@@ -133,17 +133,7 @@ a:hover {
 <body>
 
     <header>
-        
-        <!-- Menu voor desktop -->
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="spelregels.html">Spelregels</a></li>
-                <li><a href="toerprogramma.html">Toerprogramma</a></li>
-                <li><a href="#nieuws">Het Laatste Nieuws</a></li>
-            </ul>
-        </nav>
-        <!-- Menu voor mobiel -->
+        <!-- Menu voor desktop en mobiel -->
         <div class="menu-icon" onclick="toggleMenu()">☰</div>
         <nav id="mobile-menu">
             <ul>
