@@ -58,64 +58,63 @@ a:hover {
 }
 
 
-        /* Menu voor desktop */
-        .menu {
-            display: flex;
-            justify-content: center;
-            background-color: #004494;
-            padding: 10px;
-        }
-        .menu a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        .menu a:hover {
-            text-decoration: underline;
-        }
+/* Stijlen voor het uitklapmenu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
-        /* Menu voor mobiel */
-        #mobile-menu {
-            display: none;
-            background-color: silver;
-            width: 100%;
-            text-align: center;
-            position: absolute;
-            top: 50px;
-            left: 0;
-            z-index: 999;
-        }
+.dropbtn {
+    background-color: #004494; /* Dezelfde kleur als het oude menu */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
 
-        #mobile-menu ul {
-            list-style-type: none;
-            padding: 0;
-        }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9; /* Achtergrondkleur van het dropdownmenu */
+    min-width: 160px;
+    z-index: 1;
+}
 
-        #mobile-menu ul li {
-            padding: 15px;
-            border-bottom: 1px solid black;
-        }
+.dropdown-content a {
+    color: #000; /* Kleur van de links in het menu */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
-        #mobile-menu ul li a {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-            font-size: 18px;
-        }
+.dropdown-content a:hover {
+    background-color: #d3d3d3; /* Hover-effect voor links */
+}
 
-        #mobile-menu ul li a:hover {
-            background-color: #d3d3d3;
-        }
+.dropdown:hover .dropdown-content {
+    display: block; /* Toont het menu bij hover */
+}
 
-        .menu-icon {
-            display: none;
-            font-size: 30px;
-            padding: 15px;
-            background-color: #333;
-            color: white;
-            text-align: center;
-        }
+/* Mobiel menu zichtbaar maken bij klikken */
+.menu-icon {
+    display: block;
+    background-color: #004494; /* Achtergrond voor het menu-icoon */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media (min-width: 769px) { /* Verbetering voor desktop */
+    .menu-icon {
+        display: none;
+    }
+    .dropdown-content {
+        display: block; /* Toont het menu op desktop */
+        position: static; /* Laat het menu niet absolute positioneren */
+    }
+}
 
        /* Mobiele weergave: zorg voor consistente lettergrootte */
 @media (max-width: 768px) {
@@ -128,8 +127,7 @@ a:hover {
   h3 {
     font-size: 20px;
   }
-  /* Pas eventueel de andere kopjes aan op dezelfde manier */
-}
+  }
     </style>
 </head>
 <body>
