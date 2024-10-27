@@ -50,6 +50,9 @@ a:hover {
   color: orange; /* Oranje kleur bij hover */
 }
 
+
+
+
 /* Stijlen voor menu-items */
 #mobile-menu ul {
   list-style-type: none;
@@ -57,6 +60,23 @@ a:hover {
   margin: 0;
 }
 
+/* Alleen het mobiele menu tonen voor schermen kleiner dan 769px */
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Verberg desktopmenu */
+    }
+    #mobile-menu {
+        display: block; /* Toon mobiele menu */
+    }
+}
+
+/* Alleen het desktopmenu tonen voor schermen groter dan 768px */
+@media (min-width: 769px) {
+    #mobile-menu,
+    .menu-icon {
+        display: none; /* Verberg mobiele menu en menu-icoon */
+    }
+}
 
 /* Stijlen voor het uitklapmenu */
 .dropdown {
